@@ -8,7 +8,7 @@ as arguments and returns a tuple.
 from typing import Union, Tuple
 
 
-def to_kv(k: str, v: Union[int, float]) -> tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """Return a tuple where the first element is a
     string and the second is the square of v as a float."""
     square = v ** 2
